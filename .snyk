@@ -12,3 +12,13 @@ patch:
   'npm:semver:20150403':
     - npmconf > semver:
         patched: '2020-12-15T00:52:56.283Z'
+  'npm:debug:20170905':
+    - tap > tap-mocha-reporter > debug:
+        patched: '2020-12-15T01:10:06.082Z'
+    - snyk > proxy-agent > pac-proxy-agent > get-uri > debug:
+        patched: '2020-12-15T01:10:06.082Z'
+  'npm:ms:20170412':
+    - tap > tap-mocha-reporter > debug > ms:
+        patched: '2020-12-15T01:10:06.082Z'
+    - snyk > proxy-agent > pac-proxy-agent > get-uri > debug > ms:
+        patched: '2020-12-15T01:10:06.082Z'
